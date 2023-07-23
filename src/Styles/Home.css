@@ -16,8 +16,7 @@
     text-align: center;
     background-color: #0b2625;
     color: #f0f0f0;
-    margin-top: 5px;
-    margin-left: calc(15px + (100vw - 700px) * (15 - 30) / (700 -  1000)+10);
+    margin-left: calc(15px + (100vw - 700px) * (15 - 30) / (700 -  1000));
   }
 
 
@@ -40,7 +39,7 @@
   
   .services {
     display: flex;
-    height: calc(80vh);
+    height: calc(100vh);
     flex-direction: column;
     justify-content: bottom;
     align-items: center;
