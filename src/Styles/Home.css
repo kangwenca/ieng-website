@@ -1,0 +1,134 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #0b2625;
+    display: flex
+  }
+  
+  .about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0b2625;
+    color: #f0f0f0;
+    margin-top: 5px;
+    margin-left: calc(15px + (100vw - 700px) * (15 - 30) / (700 -  1000)+10);
+  }
+
+
+  .about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: #e1be63;
+    height: 5px;
+  }
+  
+  .about .prompt {
+    width: 100%;
+    font-size: 30px;
+  }
+  .prompt svg { 
+    font-size: 60px;
+    margin: 5px;
+    color: white; /* this for the icons at the very start*/
+  }
+  
+  .services {
+    display: flex;
+    height: calc(80vh);
+    flex-direction: column;
+    justify-content: bottom;
+    align-items: center;
+    font-size: 35px;
+    width: 100%;
+    color: #e1be63;
+    margin-top: calc(15px + (100vw - 700px) * (15 - 30) / (700 -  1000));
+    margin-right: calc(15px + (100vw - 700px) * (15 - 30) / (700 -  1000));
+    
+  }
+  
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -30px;
+    font-size: 22px;
+    width: 100%;
+    color: #fbfbfc;
+  }
+  
+  .list .item {
+    flex-basis: 40%; /* Adjust the value as per your preference */
+    margin-bottom: 5px; /* Adjust the value as per your preference */
+    margin-right: calc(15px + (100vw - 700px) * (15 - 30) / (700 -  1000));;;
+  }
+  
+    .list span {
+    font-size: 19px;
+    color: #e1be63;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .home {
+      align-items: center;
+      display: block;
+      margin: auto;
+    }
+
+    .about {
+      align-items: center;
+      display: inline-flex;
+    }
+
+    .about img{
+      width: 60%;
+      height: auto;
+      align-items: center;
+      display: block;
+      margin:auto;
+      margin-top: 20px;
+      
+    }
+    .about h2 {
+      font-size: 40px;
+      align-items: center;
+      display: block;
+    }
+  
+    .about .prompt {
+      display: inline block;
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .services {
+      align-items: center;
+      text-align: center;
+      color: #e1be63;
+      margin-top: 10px;
+
+    }
+    .list {
+      align-items: center;
+      padding: 1px
+
+    }
+  
+    .services h2 {
+      align-items: center;
+      font-size: 30px;
+      padding: 10px
+    }
+
+    .services h3 {
+      align-items: center;
+      font-size: 30px;
+      padding: 10px
+    }
+  }
