@@ -1,6 +1,6 @@
 {
   "homepage": "http://eric-wen10.github.io/ieng-website",
-  "name": "ieng-website1",
+  "name": "ieng-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
